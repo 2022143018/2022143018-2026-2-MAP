@@ -1,0 +1,19 @@
+{
+  "model": "키워드+로지스틱 회귀 (하이브리드 LR)",
+  "labels": [
+    "대중교통",
+    "길안내",
+    "위치GPS",
+    "장소정보",
+    "오류성능",
+    "업데이트UI",
+    "광고정책",
+    "기업이슈",
+    "일반평가"
+  ],
+  "train_data": "dataset/gold_2000.csv (review_text -> gold_topic)",
+  "train_size": 2000,
+  "cv_accuracy": 0.76,
+  "cv_macro_f1": 0.73,
+  "scikit_learn_version": "1.9.1"
+}
